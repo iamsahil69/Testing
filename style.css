@@ -2,10 +2,48 @@
     margin: 0px;
     padding: 0px;
 }
+.container{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
 h1{
-    color: dimgrey;
-    background-color: ghostwhite;
+    color: whitesmoke;
+    background-color: #4085f5;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.links{
     width: 100%;
+    height: 30px;
+    margin: 0px;
+    background-color: dimgray;
+}
+.banner{
+    background-image: url(banner.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.box1{
+    background-color: dimgray;
+    padding: 20px;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.box2{
+    background-color: dimgray;
+    padding: 20px;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+.box3{
+    background-color: dimgray;
+    padding: 20px;
+    color: whitesmoke;
+    margin-bottom: 0px;
 }
