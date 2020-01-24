@@ -19,6 +19,17 @@ h1{
     height: 30px;
     margin: 0px;
     background-color: dimgray;
+    text-align: right;
+    padding-top: 15px;
+  
+}
+a{
+    text-decoration: none;
+    color: beige;
+    margin-left: 15px;
+    padding: 5px;
+    margin-right: 15px;
+    padding-top: 15px;
 }
 .banner{
     background-image: url(banner.jpg);
