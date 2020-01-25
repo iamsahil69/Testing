@@ -5,12 +5,13 @@
 .container{
     margin-left: 12.5%;
     margin-right: 12.5%;
+    min-width: 360px;
 }
 h1{
-    color: whitesmoke;
-    background-color: #4085f5;
+    color: dimgray;
+    background-color: #80e063;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     
 }
@@ -21,6 +22,7 @@ h1{
     background-color: dimgray;
     text-align: right;
     padding-top: 15px;
+    min-width: 360px;
   
 }
 a{
@@ -37,6 +39,7 @@ a{
     background-position: center;
     background-size: cover;
     width: 100%;
+    min-width: 360px;
 }
 .box1{
     background-color: dimgray;
@@ -45,16 +48,51 @@ a{
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    
 }
 .box2{
     background-color: dimgray;
     padding: 20px;
     color: whitesmoke;
     margin-bottom: 0px;
+  
 }
 .box3{
     background-color: dimgray;
     padding: 20px;
     color: whitesmoke;
     margin-bottom: 0px;
+}
+@media screen and (max-width:760px){
+h1{
+    background-color: #6797d6;
+    color: floralwhite;
+    width: auto;
+}
+.banner{
+    background-image: url(banner.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+.links{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color:dimgray;
+    text-align: center;
+    min-width: 360px;
+  
+}
+a{
+    text-decoration: none;
+    color: beige;
+    padding: 5px;
+    padding-bottom: 15px;
+    min-width: 90%;
+    display: block;
+}
+
 }
