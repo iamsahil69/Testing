@@ -63,7 +63,26 @@ a{
     color: whitesmoke;
     margin-bottom: 0px;
 }
+.footer{
+    background-color: black;
+    height: auto;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+}
+.social-links{
+    flex: 1;
+    padding: 10px;
+}
+.privacy{
+    flex: 1;
+    padding: 10px;
+}
 @media screen and (max-width:760px){
+.container{
+    padding: 0;
+    margin: 0;
+}
 h1{
     background-color: #6797d6;
     color: floralwhite;
@@ -94,5 +113,14 @@ a{
     min-width: 90%;
     display: block;
 }
+.footer{
+    background-color: black;
+    height: auto;
+    padding: 20px;
+    display: block;
+    color: floralwhite;
+    
+}
+
 
 }
