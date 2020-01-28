@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    min-width: 360px;
+}
+.title{
+    color: dimgray;
+    background-color: chartreuse;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.links{
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    background-color: dimgray;
+    text-align: right;
+    padding-top: 15px;
+    min-width: 360px;
+  
+}
+a{
+    text-decoration: none;
+    color: beige;
+    margin-left: 15px;
+    padding: 5px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+.Sign-in{
+    background-color: dimgray;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    padding-top: 0px;
+    position: absolute;
+    top: 100px;
+    left:400px;
+    transition: 1s;
+}
+.Signin-text{
+    color: darkgray;
+    text-align: center;
+    padding: 15px;
+}
+input[type="text"],input[type="password"]{
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: darkgray;
+    border: none;
+    color: black;
+    border-bottom: 2px solid chartreuse;
+}
+input[type="submit"]{
+    padding: 8px;
+    margin: 0px;
+    background-color: chartreuse;
+    border: none;
+    width: 100%;
+    color: dimgray;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+input[type="text"]:focus{
+    background-color: darkgray;
+    border: 2px solid chartreuse;
+}
+
+
+input[type="password"]:focus{
+    background-color: darkgray;
+    border: 2px solid chartreuse;
+}
+@media screen and (max-width:720px){
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+        background-color: #427bf5;
+        color: floralwhite;
+        width: auto;
+    }
+    .links{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        background-color:dimgray;
+        text-align: center;
+        min-width: 360px;
+      
+    }
+    a{
+        text-decoration: none;
+        color: beige;
+        padding: 5px;
+        padding-bottom: 15px;
+        min-width: 90%;
+        display: block;
+    }
+    .Sign-in{
+       margin-top: 20px;
+       position: relative;
+        width: 80%;
+       top: 10px;
+       left: 10px;
+       transition: 1s;
+    }
+    input[type="text"],input[type="password"]{
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 100%;
+        background-color: darkgray;
+        border: none;
+        color: black;
+        border-bottom: 2px solid #6797d6;
+    }
+    input[type="submit"]{
+        padding: 8px;
+        margin: 0px;
+        background-color: #427bf5;
+        border: none;
+        width: 100%;
+        color: white;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    input[type="text"]:focus{
+        background-color: darkgray;
+        border: 3px solid #427bf5;
+    }
+    
+    
+    input[type="password"]:focus{
+        background-color: darkgray;
+        border: 3px solid #427bf5;
+    }
+
+
+}

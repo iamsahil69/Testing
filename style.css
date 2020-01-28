@@ -9,7 +9,7 @@
 }
 h1{
     color: dimgray;
-    background-color: #80e063;
+    background-color: chartreuse;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -84,7 +84,7 @@ a{
     margin: 0;
 }
 h1{
-    background-color: #6797d6;
+    background-color: #427bf5;
     color: floralwhite;
     width: auto;
 }
