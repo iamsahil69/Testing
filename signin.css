@@ -35,7 +35,7 @@ a{
     padding-top: 15px;
 }
 .Sign-in{
-    background-color: dimgray;
+    background-color: #dcdde1;
     padding: 20px;
     width: 300px;
     margin: 20px;
@@ -86,7 +86,7 @@ input[type="password"]:focus{
         margin: 0;
     }
     .title{
-        background-color: #427bf5;
+        background-color: #00a8ff;
         color: floralwhite;
         width: auto;
     }
@@ -122,12 +122,12 @@ input[type="password"]:focus{
         background-color: darkgray;
         border: none;
         color: black;
-        border-bottom: 2px solid #6797d6;
+        border-bottom: 2px solid #00a8ff;
     }
     input[type="submit"]{
         padding: 8px;
         margin: 0px;
-        background-color: #427bf5;
+        background-color: #00a8ff;
         border: none;
         width: 100%;
         color: white;
@@ -137,13 +137,13 @@ input[type="password"]:focus{
     }
     input[type="text"]:focus{
         background-color: darkgray;
-        border: 3px solid #427bf5;
+        border: 3px solid #00a8ff;
     }
     
     
     input[type="password"]:focus{
         background-color: darkgray;
-        border: 3px solid #427bf5;
+        border: 3px solid #00a8ff;
     }
 
 
